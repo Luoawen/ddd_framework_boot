@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+    
+spring:
+  profiles:
+    active: a
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
